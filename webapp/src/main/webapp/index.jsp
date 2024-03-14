@@ -6,7 +6,7 @@
    
 h2{
  font-family: Sans-serif; 
- font-size: 24px;     
+ font-size: 25px;     
  font-style: normal; 
  font-weight: bold; 
  color: blue;
@@ -16,7 +16,7 @@ h2{
 table{
  font-family: verdana; 
  color:white; 
- font-size: 16px; 
+ font-size: 17px; 
  font-style: normal;
  font-weight: bold;
  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);  
