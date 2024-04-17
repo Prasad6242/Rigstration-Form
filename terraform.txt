@@ -1,0 +1,24 @@
+pipeline{
+    agent any
+    tools{
+        terraform 'terraform'
+    }
+    stages{
+        stage('Git Checkout'){
+            steps{
+                git https://github.com/Prasad6242/Rigstration-Form.git
+            }
+
+        }
+        stage('terraform Init'){
+            steps{
+                sh 'Terraform Init'
+            }
+        }
+        stage('Terraform Apply'){
+            steps{
+                sh 'Terraform apply--auto-approval'
+            }
+        }
+    }
+}
