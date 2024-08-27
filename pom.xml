@@ -24,12 +24,12 @@
    <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://54.238.82.36:8081/repository/Reg-form-release/</url>
+            <url>http://52.195.208.152:8081/repository/Reg-form/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://54.238.82.36:8081/repository/Reg-form-snapshot/</url>
+            <url>http://52.195.208.152:8081/repository/reg-form-snap/</url>
         </snapshotRepository>
     <site>
       <id>site-server</id>
