@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>server</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <name>Server</name>
   <description>Logic.</description>
 
